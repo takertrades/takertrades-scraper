@@ -1,0 +1,23 @@
+{
+  "name": "takertrader",
+  "version": "1.0.0",
+  "description": "scraper for market trade information on binance",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "scraper",
+    "nodejs",
+    "puppeteer",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
