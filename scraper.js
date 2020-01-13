@@ -43,7 +43,7 @@ scrape().then(value => {
   var jsonContents = JSON.stringify(jsonContent);
   console.log(jsonContents);
 
-  fs.writeFile("output.json", jsonContents, "utf8", function(err) {
+  fs.writeFile("db.json", jsonContents, "utf8", function(err) {
     if (err) {
       console.log("An error occured while writing JSON Object to File.");
       return console.log(err);
